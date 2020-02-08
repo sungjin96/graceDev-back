@@ -1,11 +1,11 @@
 {
   "name": "default",
-  "type": "postgres",
-  "host": "localhost",
-  "port": 5432,
-  "username": "postgres",
-  "password": "postgres",
-  "database": "typegraphql-example",
+  "type": "mysql",
+  "host": "gracedev.cf",
+  "port": 3306,
+  "username": "sungjin",
+  "password": "sungjin",
+  "database": "gracedev",
   "synchronize": true,
   "logging": true,
   "entities": [
