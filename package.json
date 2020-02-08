@@ -1,0 +1,12 @@
+{
+  "name": "graceDev-back",
+  "version": "1.0.0",
+  "description": "My is blog with backend",
+  "main": "index.js",
+  "repository": "https://github.com/JJangseong/graceDev-back.git",
+  "author": "sungjin5891@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
