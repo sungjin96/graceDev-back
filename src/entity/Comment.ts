@@ -1,6 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, BaseEntity, OneToMany, ManyToOne } from 'typeorm';
 import { ObjectType, Field, ID } from "type-graphql";
-import { SubComment } from './SubComment';
 import { Post } from './Post';
 
 @ObjectType()

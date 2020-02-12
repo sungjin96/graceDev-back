@@ -3,6 +3,7 @@ import { ObjectType, Field, ID } from "type-graphql";
 import { Comment } from './Comment';
 import { Tag } from './Tag';
 import { PostFile } from './PostFile';
+import { Menu } from './Menu';
 
 @ObjectType()
 @Entity()
@@ -24,8 +25,9 @@ export class Post extends BaseEntity {
   write: string;
 
   @Field()
-  @Column()
-  subMenuId: number;
+  @OneToOne(type => Menu)
+  @JoinColumn()
+  menu: number;
 
   @OneToMany(type => Comment, comment => comment.id)
   comments: Comment[];
